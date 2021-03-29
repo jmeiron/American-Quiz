@@ -1,0 +1,83 @@
+body{
+    background-color: lightblue;
+    font-family: 'Playfair Display', serif;
+}
+
+#begin-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+#game-startedheader{
+display: none;
+margin: 15px;
+padding: 5px;
+border: red solid 2.5px;
+justify-content: flex-start;
+}
+#game-header{ 
+
+}
+#question-number{
+margin-left: 70%;
+}
+
+#begin-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+#begin{
+    background-color: #314558;
+    color:white;
+    width: 15%;
+    height: 50px;
+    font-size: 20px;  
+}
+#begin:hover{
+    background-color: lightblue;
+    border: red solid 3px;
+    color: red;
+}
+
+.question-buttons button{
+    background-color: lightblue;
+    border: #314558 solid 3px;
+    color:#314558;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin: 25px;
+}
+.question-buttonstwo button{
+    background-color: lightblue;
+    border: #314558 solid 3px;
+    color:#314558;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin: 25px;
+}
+.question-buttons{
+    display: flex; 
+}
+
+.question-buttonstwo{
+    display:flex;
+}
+
+.question-header{
+    margin-top: 10%;
+    
+}
+button:hover{
+    background-color: lightblue;
+   border: red solid 3px;
+   color: red;
+}
+
+#question-one{
+    display:none;
+   justify-content: center;
+}
