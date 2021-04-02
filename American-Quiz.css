@@ -16,12 +16,29 @@ padding: 5px;
 border: red solid 2.5px;
 justify-content: flex-start;
 }
-#game-header{ 
 
-}
 #question-number{
 margin-left: 70%;
 }
+#movement-container{
+    display: none;
+    justify-content: center;
+}
+#back-button{
+    background-color: lightblue;
+    border: #314558 solid 3px;
+    color:#314558;
+    font-size: 18px;
+    width: 5%;
+    padding: 10px;
+    margin: 25px;
+}
+#back-button:hover{
+    background-color: lightblue;
+    border: red solid 3px;
+    color: red;
+}
+
 
 #begin-button{
     display: flex;
