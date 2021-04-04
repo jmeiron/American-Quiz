@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     font-family: 'Playfair Display', serif;
 }
 
@@ -25,7 +25,7 @@ margin-left: 70%;
     justify-content: center;
 }
 #back-button{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     border: #314558 solid 3px;
     color:#314558;
     font-size: 18px;
@@ -34,11 +34,10 @@ margin-left: 70%;
     margin: 25px;
 }
 #back-button:hover{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     border: red solid 3px;
     color: red;
 }
-
 
 #begin-button{
     display: flex;
@@ -53,13 +52,13 @@ margin-left: 70%;
     font-size: 20px;  
 }
 #begin:hover{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     border: red solid 3px;
     color: red;
 }
 
 .question-buttons button{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     border: #314558 solid 3px;
     color:#314558;
     font-size: 18px;
@@ -68,7 +67,7 @@ margin-left: 70%;
     margin: 25px;
 }
 .question-buttonstwo button{
-    background-color: lightblue;
+    background-color:#ebf4fc;
     border: #314558 solid 3px;
     color:#314558;
     font-size: 18px;
@@ -89,7 +88,7 @@ margin-left: 70%;
     
 }
 button:hover{
-    background-color: lightblue;
+    background-color:#ebf4fc;
    border: red solid 3px;
    color: red;
 }
@@ -97,4 +96,21 @@ button:hover{
 #question-one{
     display:none;
    justify-content: center;
+}
+
+#restart{
+    display: none;
+    background-color:#ebf4fc;
+    border: #314558 solid 3px;
+    color:#314558;
+    font-size: 18px;
+    width: 5%;
+    padding: 10px;
+    margin: 25px;
+}
+
+#restart:hover{
+    background-color:#ebf4fc;
+    border: red solid 3px;
+    color: red;
 }
